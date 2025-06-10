@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDKTests.build/master.swiftdeps"
+  },
+  "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/Tests/STTESTSDKTests/STTESTSDKTests.swift": {
+    "dependencies": "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDKTests.build/STTESTSDKTests.d",
+    "object": "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDKTests.build/STTESTSDKTests.swift.o",
+    "swiftmodule": "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDKTests.build/STTESTSDKTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDKTests.build/STTESTSDKTests.swiftdeps"
+  }
+}

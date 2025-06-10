@@ -1,0 +1,4 @@
+module STTESTSDKPackageTests {
+    header "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDKPackageTests.build/STTESTSDKPackageTests-Swift.h"
+    requires objc
+}
