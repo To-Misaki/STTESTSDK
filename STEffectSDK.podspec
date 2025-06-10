@@ -26,8 +26,9 @@ Pod::Spec.new do |s|
         "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES" # requies both `user_target_xcconfig` and `pod_target_xcconfig`
     }
 
-    s.platform      = :ios, "8.0"
-    s.ios.deployment_target = "8.0"
+    s.platform      = :ios, "12.0"
+    s.ios.deployment_target = "12.0"
+    s.swift_versions = ['5']
     
     s.requires_arc = true
     
