@@ -21,14 +21,14 @@
 
   ],
   "swiftCommands" : {
-    "C.STTESTSDK-x86_64-apple-macosx15.0-debug.module" : {
+    "C.Class-x86_64-apple-macosx15.0-debug.module" : {
       "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
-      "fileList" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/sources",
+      "fileList" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/sources",
       "importPath" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/Sources/STTESTSDK/STTESTSDK.swift"
+          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/Sources/Class/testFile.swift"
         },
         {
           "kind" : "file",
@@ -36,14 +36,14 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/sources"
+          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/sources"
         }
       ],
       "isLibrary" : true,
-      "moduleName" : "STTESTSDK",
-      "moduleOutputPath" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Modules/STTESTSDK.swiftmodule",
+      "moduleName" : "Class",
+      "moduleOutputPath" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Modules/Class.swiftmodule",
       "objects" : [
-        "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/STTESTSDK.swift.o"
+        "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/testFile.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -62,7 +62,7 @@
         "-parse-as-library",
         "-emit-objc-header",
         "-emit-objc-header-path",
-        "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/STTESTSDK-Swift.h",
+        "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/Class-Swift.h",
         "-color-diagnostics",
         "-swift-version",
         "6",
@@ -90,22 +90,22 @@
         "-package-name",
         "sttestsdk"
       ],
-      "outputFileMapPath" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/output-file-map.json",
+      "outputFileMapPath" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/STTESTSDK.swift.o"
+          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/testFile.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Modules/STTESTSDK.swiftmodule"
+          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Modules/Class.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/Sources/STTESTSDK/STTESTSDK.swift"
+        "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/Sources/Class/testFile.swift"
       ],
-      "tempsPath" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build",
+      "tempsPath" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build",
       "wholeModuleOptimization" : false
     },
     "C.STTESTSDKPackageTests-x86_64-apple-macosx15.0-debug.module" : {
@@ -212,7 +212,7 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Modules/STTESTSDK.swiftmodule"
+          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Modules/Class.swiftmodule"
         },
         {
           "kind" : "file",
@@ -290,15 +290,15 @@
 
   },
   "swiftTargetScanArgs" : {
-    "STTESTSDK" : [
+    "Class" : [
       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
       "-module-name",
-      "STTESTSDK",
+      "Class",
       "-package-name",
       "sttestsdk",
       "-incremental",
       "-c",
-      "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/Sources/STTESTSDK/STTESTSDK.swift",
+      "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/Sources/Class/testFile.swift",
       "-I",
       "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Modules",
       "-target",
@@ -317,7 +317,7 @@
       "-parse-as-library",
       "-emit-objc-header",
       "-emit-objc-header-path",
-      "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/STTESTSDK-Swift.h",
+      "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/Class-Swift.h",
       "-color-diagnostics",
       "-swift-version",
       "6",
@@ -458,15 +458,15 @@
     ]
   },
   "targetDependencyMap" : {
-    "STTESTSDK" : [
+    "Class" : [
 
     ],
     "STTESTSDKPackageTests" : [
       "STTESTSDKTests",
-      "STTESTSDK"
+      "Class"
     ],
     "STTESTSDKTests" : [
-      "STTESTSDK"
+      "Class"
     ]
   },
   "testDiscoveryCommands" : {
@@ -486,7 +486,7 @@
     }
   },
   "writeCommands" : {
-    "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/sources" : {
+    "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -495,10 +495,10 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/Sources/STTESTSDK/STTESTSDK.swift"
+          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/Sources/Class/testFile.swift"
         }
       ],
-      "outputFilePath" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/sources"
+      "outputFilePath" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/sources"
     },
     "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDKPackageTests.build/sources" : {
       "alwaysOutOfDate" : false,
@@ -523,7 +523,7 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/STTESTSDK.build/STTESTSDK.swift.o"
+          "name" : "/Users/guozhenquan/Desktop/effect_sdk/STTESTSDK/.build/x86_64-apple-macosx/debug/Class.build/testFile.swift.o"
         },
         {
           "kind" : "file",
